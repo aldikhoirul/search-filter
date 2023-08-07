@@ -93,13 +93,22 @@ body {
 }
 
 @media (max-width: 768px) {
-  .main-container {
-    width: 60%;
+  .search-container {
+    width: 50%;
   }
 }
 
 @media (max-width: 576px) {
+  body {
+    width: auto;
+  }
+
   .main-container {
-    width: 60%;
+    margin-left: 45px;
+    width: auto;
+  }
+
+  .search-container {
+    width: 50%;
   }
 }
